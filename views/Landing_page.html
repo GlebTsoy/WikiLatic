@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LANDING PAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/hide.js"></script>
+</head>
+ 
+<body>
+	<div id="Landingpagetemplate">
+	<h3>LANDING PAGE</h3>
+		<form id="Signin">
+		<label for="loginusername">Username:</label>
+		<input type="text" id="loginusername" placeholder="Enter Username"/>
+		<label for="loginpassword">Password:</label>
+		<input type="password" id="loginpassword" placeholder="Enter Password"/>
+		<button id="Login" type="submit" class="btn btn-default">Log in</button>
+		<button id="Signup" type="button" class="btn btn-default">Sign Up</button></form>
+	</div>
+	<div id= "Signuptemplate" style="display:none">		
+		<form id="Signupform">
+		  <p id="invalidusername_error"></p>
+		  <p id="invalidemail_error"></p>
+		  <div>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" placeholder="Enter First Name"/><span id="firstname_error_message"></span>
+		  </div>
+		  <div>
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" placeholder="Enter Last Name"/><span id="lastname_error_message"></span>
+		  </div>
+		  <div>
+			<label for="username">UserName:</label>
+			<input type="text" id="username" placeholder="Enter Username"/><span id="username_error_message"></span>
+		  </div>
+		  <div>
+			<label for="Password">Password:</label>
+			<input type="password" id="password" placeholder="Enter Password"/><span id="password_error_message"></span>
+		  </div>
+		  <div>
+			<label for="email">Email:</label>
+			<input type="text" id="email" placeholder="Enter Email"/><span id="email_error_message"></span>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
